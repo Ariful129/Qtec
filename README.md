@@ -1,87 +1,67 @@
-# AI Chat Log Analysis and Summary 
+# **Chat Insights — AI Conversation Analyzer**
 
-## Project Overview 
-AI Chat Log Analysis and Summary is a Python-based tool designed to analyze chat logs between a user and an AI. It reads `.txt` files containing the conversation, processes the data, and generates detailed summaries with message statistics and key insights. This project leverages **natural language processing (NLP)** techniques to extract meaningful keywords, track conversation flow, and provide an informative summary.
-
----
-
-## Features 
-- **Chat Log Parsing**: Reads `.txt` files and separates messages by speaker (User and AI).
-- **Message Statistics**: Counts the total number of messages, user messages, and AI messages.
-- **Keyword Extraction**: Identifies the top 5 most frequently used keywords excluding stopwords and conversational fillers.
-- **Summary Generation**: Creates a readable summary including:
-  - **Total number of exchanges** (User and AI messages).
-  - **Main topics** discussed (based on keyword extraction).
-  - **Most common keywords**.
-- **Batch Processing**: Supports processing multiple chat logs at once from a folder.
-- **User Interface**: Uses **Streamlit** to display results in an interactive web app.
+## **Project Overview**  
+Chat Insights is a Python tool built to analyze chat logs between a user and an AI assistant. It reads `.txt` files of conversations, processes the content, and generates detailed summaries including message counts and key topic highlights. By leveraging natural language processing (NLP) techniques, it extracts meaningful keywords and tracks the flow of dialogue to deliver clear, informative insights.
 
 ---
 
-## **Methodology** 
-
-### **1. Chat File Parsing** 
-The tool reads `.txt` files line by line and separates the conversation into `User` and `AI` messages. These messages are stored in two separate lists to track the conversation flow.
-
-### **2. Text Cleaning** 
-The tool processes the messages by:
-- Extracting only alphabetic characters.
-- Converting text to lowercase.
-- Removing **stopwords** (e.g., "the", "and", "is") and **conversational fillers** (e.g., "hi", "thanks", "bye").
-
-### **3. Keyword Extraction** 
-Once the text is cleaned, the tool analyzes the most frequently occurring words using Python's `collections.Counter`. The **top 5 most frequent keywords** are selected, providing a clear indication of the conversation's main topics.
-
-### **4. Summary Generation** 
-A summary is generated that includes:
-- **Total number of exchanges** (User + AI messages).
-- **Main topics discussed**, based on the most common keywords.
-- **List of the top 5 keywords**.
-
-### **5. Batch Processing (Folder Support)** 
-The tool can process multiple `.txt` chat log files at once. The function `parse_chat_folder(folder_path)` processes all `.txt` files in a specified folder, and the final output is a combined summary of all chat logs.
+## **Key Features**  
+- **Conversation Parsing:** Efficiently separates messages by speaker (User vs AI) from `.txt` logs.  
+- **Message Metrics:** Counts total messages, as well as breakdowns by User and AI.  
+- **Keyword Extraction:** Identifies top 5 keywords excluding common stopwords and filler words.  
+- **Summarization:** Produces a readable summary with total exchanges, main topics discussed, and frequent keywords.  
+- **Batch Processing:** Supports analyzing multiple chat files in a folder for consolidated reports.  
+- **Interactive UI:** Built with Streamlit for an easy-to-use web interface showcasing results dynamically.
 
 ---
 
-## **Libraries and Tools Used** 
-- **nltk**: For text processing, including stopword removal and tokenization.
-- **re**: For regular expressions used in text cleaning and pattern matching.
-- **collections.Counter**: For frequency analysis of words.
-- **os**: For file handling and navigation.
-- **streamlit**: For building the frontend web application where users can interact with the tool and view the generated summaries.
+## **How It Works**  
+
+### 1. **Parsing Chat Logs**  
+Reads each chat `.txt` file line by line, categorizing text into separate User and AI message lists to maintain context.
+
+### 2. **Cleaning Text Data**  
+Extracts only alphabetic words, converts to lowercase, and removes common stopwords (e.g., “the”, “is”) and conversational fillers (e.g., “hi”, “thanks”).
+
+### 3. **Extracting Keywords**  
+Uses frequency analysis to determine the top 5 most meaningful keywords that best represent the conversation topics.
+
+### 4. **Generating Summary**  
+Combines message counts and keywords into a concise natural language summary that highlights the core discussion points.
+
+### 5. **Processing Multiple Files**  
+Scans entire folders of chat logs, generating individual and combined summaries for comprehensive analysis.
 
 ---
 
-## **Design Philosophy** 
-- **Simplicity**: The project focuses on simple, efficient solutions without relying on complex machine learning models.
-- **Modularity**: Each function is designed to be independent and reusable for easier testing and maintenance.
-- **Clarity**: The logic and flow of the program are transparent and easy to understand.
+## **Technologies Used**  
+- **nltk:** Natural Language Toolkit for stopword filtering and tokenization.  
+- **re:** Regular expressions for text extraction and cleaning.  
+- **collections.Counter:** Counting word frequencies for keyword extraction.  
+- **os:** File and directory management.  
+- **streamlit:** Frontend framework for an interactive web app interface.
 
 ---
 
-## **Requirements** 
-- **Python**: Version 3.6 or higher
-- **Libraries**:
-  - `nltk` (for text processing and stopword removal)
-  - `scikit-learn` (for TF-IDF, optional feature)
-  - `streamlit` (for creating the frontend web app)
+## **Design Philosophy**  
+- **Simple & Effective:** Minimal dependencies and clear logic for easy understanding and maintenance.  
+- **Modular:** Each component (parsing, cleaning, keyword extraction) is standalone and reusable.  
+- **User Friendly:** Provides clear output with interactive UI for seamless user experience.
 
 ---
 
-## **Installation** 🔧
+## **Requirements**  
+- Python 3.6+  
+- Libraries:  
+  - `nltk`  
+  - `scikit-learn` (optional, for TF-IDF)  
+  - `streamlit`
 
-### **Step 1: Clone the Repository**
-Clone the repository to your local machine: https://github.com/Ariful129/Qtec/tree/main
+---
 
-## **User Interface**
+## **Installation & Setup** 🔧  
 
-
-
-###  Output(Initial UI after running on browser)
-![Image Alt](https://github.com/Ariful129/Qtec/blob/48dbc241b8d9fcb7face3fa9919bab51f64c4914/images/Initial_UI.png)
-
-### Output(Final UI after running on browser)
-![Image Alt](https://github.com/Ariful129/Qtec/blob/e4d3121b37cd9af13ec66ff7ad35ecdb173f31b4/images/Final_UI.png)
-
-
-
+### Clone the repo:  
+```bash
+git clone https://github.com/Ariful129/Qtec.git
+cd Qtec
