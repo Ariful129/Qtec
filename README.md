@@ -74,8 +74,14 @@ The tool can process multiple `.txt` chat log files at once. The function `parse
 Clone the repository to your local machine: https://github.com/Ariful129/Qtec/tree/main
 
 ## **User Interface**
+i). install streamlit in VS code
+ii).use streamlit run app.py
 
-
-
+# ** Output(Initial UI)
 ![Image Alt](https://github.com/Ariful129/Qtec/blob/48dbc241b8d9fcb7face3fa9919bab51f64c4914/images/Initial_UI.png)
+
+# ** Output(Final UI)
+![Image Alt](https://github.com/Ariful129/Qtec/blob/e4d3121b37cd9af13ec66ff7ad35ecdb173f31b4/images/Final_UI.png)
+
+
 
