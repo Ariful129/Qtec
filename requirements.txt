@@ -1,0 +1,7 @@
+## Requirements
+- **Python** 3.6 or higher
+- **Libraries**:
+  - `nltk` (for text processing and stopword removal)
+  - `scikit-learn` (for TF-IDF, optional feature)
+  - `streamlit` (for creating the frontend web app)
+  
