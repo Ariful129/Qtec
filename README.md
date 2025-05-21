@@ -73,4 +73,8 @@ The tool can process multiple `.txt` chat log files at once. The function `parse
 ### **Step 1: Clone the Repository**
 Clone the repository to your local machine: https://github.com/Ariful129/Qtec/tree/main
 
+ ![Image Alt]([image_url](https://github.com/Ariful129/Qtec/blob/48dbc241b8d9fcb7face3fa9919bab51f64c4914/images/Initial_UI.png
+))
+
+
 
