@@ -77,10 +77,10 @@ Clone the repository to your local machine: https://github.com/Ariful129/Qtec/tr
 
 
 
-# ** Output(Initial UI)
+### ** Output(Initial UI)
 ![Image Alt](https://github.com/Ariful129/Qtec/blob/48dbc241b8d9fcb7face3fa9919bab51f64c4914/images/Initial_UI.png)
 
-# ** Output(Final UI)
+### ** Output(Final UI)
 ![Image Alt](https://github.com/Ariful129/Qtec/blob/e4d3121b37cd9af13ec66ff7ad35ecdb173f31b4/images/Final_UI.png)
 
 
