@@ -59,9 +59,20 @@ Scans entire folders of chat logs, generating individual and combined summaries 
 
 ---
 
+## **User Interface**
+
+###  Output(Initial UI after running on browser)
+![Image Alt](https://github.com/Ariful129/Qtec/blob/48dbc241b8d9fcb7face3fa9919bab51f64c4914/images/Initial_UI.png)
+
+### Output(Final UI after running on browser)
+![Image Alt](https://github.com/Ariful129/Qtec/blob/e4d3121b37cd9af13ec66ff7ad35ecdb173f31b4/images/Final_UI.png)
+
 ## **Installation & Setup** 🔧  
 
 ### Clone the repo:  
 ```bash
 git clone https://github.com/Ariful129/Qtec.git
 cd Qtec
+
+
+
