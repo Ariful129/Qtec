@@ -1,7 +1,7 @@
-# **Chat Insights — AI Conversation Analyzer**
+# AI Chat Log Analysis and Summary 
 
 ## **Project Overview**  
-Chat Insights is a Python tool built to analyze chat logs between a user and an AI assistant. It reads `.txt` files of conversations, processes the content, and generates detailed summaries including message counts and key topic highlights. By leveraging natural language processing (NLP) techniques, it extracts meaningful keywords and tracks the flow of dialogue to deliver clear, informative insights.
+AI Chat Log Analysis and Summary is a Python-based tool designed to analyze chat logs between a user and an AI. It reads `.txt` files of conversations, processes the content, and generates detailed summaries including message counts and key topic highlights. By leveraging natural language processing (NLP) techniques, it extracts meaningful keywords and tracks the flow of dialogue to deliver clear, informative insights.
 
 ---
 
